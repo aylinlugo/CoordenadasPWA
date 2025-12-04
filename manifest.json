@@ -2,9 +2,9 @@
   "name": "Coordenadas Cartesianas - Matemáticas 6°",
   "short_name": "Coordenadas",
   "description": "Aplicación educativa para aprender coordenadas cartesianas - 6° Grado",
-  "start_url": "index.html",
+  "start_url": "./index.html",
   "display": "standalone",
-  "orientation": "any",
+  "orientation": "portrait",
   "background_color": "#F3F4F6",
   "theme_color": "#3B82F6",
   "scope": "./",
@@ -22,11 +22,6 @@
     {
       "src": "icons/icon-128.png",
       "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon-152.png",
-      "sizes": "152x152",
       "type": "image/png"
     },
     {
@@ -49,5 +44,7 @@
   ],
   "categories": ["education", "mathematics"],
   "lang": "es",
-  "dir": "ltr"
+  "dir": "ltr",
+  "prefer_related_applications": false
 }
+
